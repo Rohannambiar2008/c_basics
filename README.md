@@ -1,58 +1,78 @@
 # C Basics
 
-This repository is a beginner-focused collection of C programming practice programs. It is mainly for learning core concepts such as `switch case`, loops, and pattern printing.
+This repository is a collection of beginner-level C programs focused on learning core programming concepts through small, practical projects.
+
+## Overview
+
+The repo is structured to help build confidence in C by practicing:
+- `switch` statements
+- loops
+- pattern printing
+- arithmetic operations
+- input/output handling
+- beginner-level problem solving
 
 ## Repository Structure
 
 ```text
 c_basics/
 ├── README.md
-└── patterns/
-    ├── Pattern_Switch_case.c
-    └── Pattern_switch_case_part2.c
+├── calculator/
+│   ├── README.md
+│   └── main.c
+├── patterns/
+│   ├── README.md
+│   ├── Pattern_Switch_case.c
+│   └── Pattern_switch_case_part2.c
 ```
 
-## Programs Included
+## Projects Included
 
-### 1. Pattern_Switch_case.c
-A menu-driven pattern program that prints:
-- Triangle
-- Square
+### 1. Calculator
+A beginner calculator program that performs:
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Modulus
 
-It demonstrates:
-- `switch case`
-- `for` loops
-- user input handling
+It uses a menu-based `switch` structure and includes basic error handling for division by zero.
 
-### 2. Pattern_switch_case_part2.c
-A program that prints different triangle variations based on user selection:
-- Right inclined triangle
-- Inverted right inclined triangle
-- Left inclined triangle
-- Inverted left inclined triangle
-
-It demonstrates:
-- multiple `case` statements
+### 2. Patterns
+This folder contains beginner pattern printing programs that practice:
 - nested loops
-- spacing logic in patterns
+- star printing
+- spacing logic
+- selection using `switch`
+
+The programs include:
+- triangle and square patterns
+- left/right inclined triangles
+- inverted patterns
 
 ## Topics Covered
 
-- Switch case
-- Loops
-- Pattern printing
-- Basic C programming logic
-- Input and output
+- Control flow
+- Decision making with `switch`
+- Repetition with loops
+- Pattern logic
+- Arithmetic operations
+- User input and output
 
 ## How to Run
 
-### Compile and run the first program
+### Run the calculator
+```bash
+gcc calculator/main.c -o calculator
+./calculator
+```
+
+### Run the pattern programs
 ```bash
 gcc patterns/Pattern_Switch_case.c -o pattern1
 ./pattern1
 ```
 
-### Compile and run the second program
 ```bash
 gcc patterns/Pattern_switch_case_part2.c -o pattern2
 ./pattern2
@@ -60,4 +80,6 @@ gcc patterns/Pattern_switch_case_part2.c -o pattern2
 
 ## Notes
 
-This repository is a learning project for basic C concepts. More programs will be added later as I continue practicing arrays, strings, functions, and pointers.
+This repository is a learning project for beginner C programming. It is meant to help build a strong foundation before moving to arrays, strings, functions, pointers, and file handling.
+
+More programs will be added as learning progresses.
