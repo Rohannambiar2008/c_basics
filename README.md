@@ -2,7 +2,7 @@
 
 Learning and Practicing C programming. 
 
-##Topics I will cover
+## Topics I will cover
 
   1)Switch Case
   2)Loops
