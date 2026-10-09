@@ -9,6 +9,7 @@ The repo is structured to help build confidence in C by practicing:
 - loops
 - pattern printing
 - arithmetic operations
+- arrays and strings
 - input/output handling
 - beginner-level problem solving
 
@@ -24,6 +25,9 @@ c_basics/
 │   ├── README.md
 │   ├── Pattern_Switch_case.c
 │   └── Pattern_switch_case_part2.c
+├── student-marks/
+│   ├── README.md
+│   └── student_marks.c
 ```
 
 ## Projects Included
@@ -50,14 +54,28 @@ The programs include:
 - left/right inclined triangles
 - inverted patterns
 
+### 3. Student Marks
+This project stores and processes student information using arrays.
+
+It includes:
+- student name and roll number
+- marks for Physics, Chemistry, Math, English, and CS
+- total and average calculation
+- grade assignment
+- display of all student records
+- search by name
+- sorting by total marks
+
 ## Topics Covered
 
 - Control flow
 - Decision making with `switch`
 - Repetition with loops
 - Pattern logic
+- Arrays and strings
 - Arithmetic operations
 - User input and output
+- Basic data processing
 
 ## How to Run
 
@@ -76,6 +94,12 @@ gcc patterns/Pattern_Switch_case.c -o pattern1
 ```bash
 gcc patterns/Pattern_switch_case_part2.c -o pattern2
 ./pattern2
+```
+
+### Run the student marks program
+```bash
+gcc student-marks/student_marks.c -o student_marks
+./student_marks
 ```
 
 ## Notes
